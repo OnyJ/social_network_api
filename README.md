@@ -67,6 +67,8 @@ fetch("URL/me", {
 Logging out has to be handled by the frontend website. You have to delete the token from the local storage.
 
 ```js
+// First you log in
+
 fetch("http://localhost:3000/auth/login/", {
       method: "POST",
       headers: {
@@ -81,6 +83,9 @@ fetch("http://localhost:3000/auth/login/", {
     .then((data) => {
       localStorage.setItem("jwt", data.jwt);
     })
+
+// Then you log out
+localStorage.removeItem("jwt")
 ```
 
 ## How was it made?
