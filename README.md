@@ -88,6 +88,8 @@ fetch("http://localhost:3000/auth/login/", {
 localStorage.removeItem("jwt")
 ```
 
+Request from online API: `https://netw-api-26528395cca8.herokuapp.com/`
+
 ## How was it made?
 
 Main resource [here](https://dev.to/mohhossain/a-complete-guide-to-rails-authentication-using-jwt-403p)
