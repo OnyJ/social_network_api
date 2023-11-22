@@ -10,7 +10,13 @@
 
 You can access different routes for different actions:
 
-sign up
+sign up : `localhost:3000/users`
+```json
+{
+    "username": "Coucou",
+    "password": "123456"
+}
+```
 
 sign in
 
