@@ -20,6 +20,32 @@ update a post
 
 delete a post
 
+Example request:
+
+```js
+fetch('URL/auth/login', {
+  method: POST,
+  headers: {
+      'Content-type': 'application/json'
+  },
+  body: {
+      username: 'randomUserName',
+      password: 'ask^dsk34'
+  }
+)
+```
+
+Example request with JWT:
+
+```js
+fetch("URL/me", {
+  method: "GET",
+  headers: {
+    Authorization: `Bearer <token>`,
+  },
+});
+```
+
 ## How was it made?
 
 Main resource [here](https://dev.to/mohhossain/a-complete-guide-to-rails-authentication-using-jwt-403p)
