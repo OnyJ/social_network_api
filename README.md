@@ -19,3 +19,7 @@ create a post
 update a post
 
 delete a post
+
+## How was it made?
+
+Main resource [here](https://dev.to/mohhossain/a-complete-guide-to-rails-authentication-using-jwt-403p)
